@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "Electricity_tariffs",
-      "path": "Rohdaten_Tarife_2019.csv",
+      "path": "data/Rohdaten_Tarife_2019.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
