@@ -8,7 +8,7 @@
       "schema": {
         "fields": [
           {
-            "name": "field1",
+            "name": "Sequence",
             "type": "integer",
             "format": "default"
           },
@@ -24,7 +24,7 @@
           },
           {
             "name": "VSE-ID",
-            "type": "integer",
+            "type": "string",
             "format": "default"
           },
           {
