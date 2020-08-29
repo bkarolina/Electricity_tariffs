@@ -2,13 +2,13 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "Electricity_tariffs",
+      "name": "tarrifs_2019",
       "path": "data/Rohdaten_Tarife_2019.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "field1",
+            "name": "Sequence",
             "type": "integer",
             "format": "default"
           },
@@ -24,7 +24,7 @@
           },
           {
             "name": "VSE-ID",
-            "type": "integer",
+            "type": "string",
             "format": "default"
           },
           {
@@ -64,9 +64,9 @@
   "keywords": [
     "Energy"
   ],
-  "name": "Electricity_tariffs",
-  "title": "Electricity_tariffs",
-  "description": "Tariffs by customer category",
+  "name": "electricity_tariffs",
+  "title": "Electricity Tariffs",
+  "description": "Costs of energy by customer category",
   "homepage": "https://www.elcom.admin.ch/dam/elcom/de/dokumente/2019/Rohdaten%20Tarife%202019%20(Stand%2009.01.2019).xlsx.download.xlsx/Rohdaten%20Tarife%202019%20(Stand%2009.01.2019).xlsx",
   "licenses": [
     {
